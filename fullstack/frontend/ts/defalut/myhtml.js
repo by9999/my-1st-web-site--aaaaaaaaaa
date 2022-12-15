@@ -1,13 +1,13 @@
 var _a, _b, _c, _d, _e;
 var myflipkartitems = [{
-        img: '../../../tedy.jpg',
+        img: '../../../../public/yohan wi.jpg',
         tittle: 'teddybear',
         discount: 'save upto 90%',
         discription: 'lovable tedy bear for kids',
         price: '5000'
     },
     {
-        img: '../../../tedy.jpg',
+        img: '../../../../public/yohan wi.jpg',
         tittle: 'teddybear',
         discount: 'save upto 90%',
         discription: 'lovable tedy bear for kids',
@@ -32,3 +32,5 @@ h3.innerHTML = myflipkartitems[0].price;
 h3.style.color = 'red';
 h3.style.fontSize = '50px';
 (_e = document.getElementById('root')) === null || _e === void 0 ? void 0 : _e.appendChild(h3);
+var h3 = document.createElement('h4');
+h4.innerHTML = myflipkartitem[0].discription;
