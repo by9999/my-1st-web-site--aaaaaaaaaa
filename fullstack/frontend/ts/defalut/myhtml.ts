@@ -1,10 +1,13 @@
 var myflipkartitems=[{
  
     img:'../../../../public/yohan wi.jpg',
+    
     tittle:  'teddybear',
     discount:'save upto 90%',
     discription:'lovable tedy bear for kids',
     price:'5000'
+
+  
 } ,
 {
     img:'../../../../public/yohan wi.jpg',
@@ -17,7 +20,9 @@ var img=document.createElement('img')
 img.src=myflipkartitems[0].img
 document.getElementById('root')?.appendChild(img)
 
-var h1=document.createElement('h1')
+     
+    
+    var h1=document.createElement('h1')
 h1.innerHTML=myflipkartitems[0].tittle
 document.getElementById('root')?.appendChild(h1)
 
